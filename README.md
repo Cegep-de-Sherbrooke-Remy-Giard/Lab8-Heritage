@@ -47,16 +47,16 @@ Nous allons modifier le `CompteBanque` pour qu'il devienne un `Actif`.
 
 # Étape 5 - Ajout des méthodes `afficherDetails()`
 On désire pouvoir afficher les détails des instances de chacune des classes de la hiérarchie `Actif`. Nous allons donc créer des méthodes `afficherDetails(ostream&flux)`.  
-1. Créez la méthode `afficherDetails(ostream&flux)` pour la classe `Actif`.  Cette méthode doit afficher par exemple: 
+1. Créez la méthode `afficherDetails(ostream& flux)` pour la classe `Actif`.  Cette méthode doit afficher par exemple: 
 ```
 Solde: 1234.00$
 ```
-2. Créez la méthode `afficherDetails(ostream&flux)` pour la classe `Placement`.  Il est nécessaire d'utiliser la méthode `afficherDetails` de la classe parent.  Par exemple, cette méthode pourrait afficher:
+2. Créez la méthode `afficherDetails(ostream& flux)` pour la classe `Placement`.  Il est nécessaire d'utiliser la méthode `afficherDetails` de la classe parent.  Par exemple, cette méthode pourrait afficher:
 ```
 Institution: Desjardins
 Solde: 1234.00$
 ```
-3. Créez la méthode `afficherDetails(ostream&flux)` pour la classe `Reer`.  Il est nécessaire d'utiliser la méthode `afficherDetails` de la classe parent.  Par exemple, cette méthode pourrait afficher:
+3. Créez la méthode `afficherDetails(ostream& flux)` pour la classe `Reer`.  Il est nécessaire d'utiliser la méthode `afficherDetails` de la classe parent.  Par exemple, cette méthode pourrait afficher:
 ```
 REER
 ====
@@ -65,7 +65,7 @@ No compte: 8473748-12-ES2
 Institution: Desjardins
 Solde: 1234.00$
 ```
-4. Créez la méthode `afficherDetails(ostream&flux)` pour la classe `CompteBanque`.  Il est nécessaire d'utiliser la méthode `afficherDetails` de la classe parent.  Par exemple, cette méthode pourrait afficher:
+4. Créez la méthode `afficherDetails(ostream& flux)` pour la classe `CompteBanque`.  Il est nécessaire d'utiliser la méthode `afficherDetails` de la classe parent.  Par exemple, cette méthode pourrait afficher:
 ```
 Compte de Banque
 ================
