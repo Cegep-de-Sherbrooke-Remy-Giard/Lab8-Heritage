@@ -3,6 +3,7 @@
 Théorie visé par ce lab:
 - Concept de l'héritage en programmation orienté objet
 - Visibilité *protected*
+- Masquage et démasquage de méthodes
 
 ## Description
 Pour ce laboratoire, nous allons réutiliser la classe `CompteBanque` du laboratoire 6.  Tout de même, nous allons créer un nouveau projet dans lequel nous copierons la classe plus loin.  Pour l'instant, veuillez suivre les prochaines étapes.
