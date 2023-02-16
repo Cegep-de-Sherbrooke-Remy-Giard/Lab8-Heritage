@@ -25,11 +25,11 @@ Pour ce laboratoire, nous allons réutiliser la classe `CompteBanque` du laborat
 # Étape 3 - Création de la classe `Reer` 
 1. Créez une nouvelle classe `Reer` qui hérite de la classe `Placement`.  
 2. Ajoutez un attribut `string _numeroCompte` et son getter
-3. Ajouter un attribut `string _echance` et son getter
+3. Ajouter un attribut `string _echeance` et son getter
 4. Ajouter un constructeur qui reçoit en paramètre le solde, l'institution, le numéro de compte et l'échéance. 
 
 ## Questions: 
-- Quelle visibilité devraient avoir les nouveaux attributs de la classe `CompteBanque` et pourquoi ? 
+- Quelle visibilité devraient avoir les nouveaux attributs de la classe `Reer` et pourquoi ? 
 - Quelle visibilité devraient avoir les getters des nouveaux attributs et pourquoi ? 
 
 # Étape 4 - Modification de la classe `CompteBanque`
