@@ -3,10 +3,9 @@
 Théorie visé par ce lab:
 - Concept de l'héritage en programmation orienté objet
 - Visibilité *protected*
-- Utilisation de pointeurs dans les classes
 
 ## Description
-Pour ce laboratoire, nous allons réutiliser la classe `CompteBanque` du laboratoire 6.  Tout de même, nous allons créer un nouveau projet dans lequel nous copierons ces classes plus loin.  Pour l'instant, veuillez suivre les prochaines étapes.
+Pour ce laboratoire, nous allons réutiliser la classe `CompteBanque` du laboratoire 6.  Tout de même, nous allons créer un nouveau projet dans lequel nous copierons la classe plus loin.  Pour l'instant, veuillez suivre les prochaines étapes.
 
 # Étape 1 - Création de la classe `Actif`
 1. Créez une nouvelle classe `Actif`.  Cette classe représentera un actif dans le monde de la comptabilité.
@@ -15,11 +14,11 @@ Pour ce laboratoire, nous allons réutiliser la classe `CompteBanque` du laborat
 
 ## Questions:
 - Que représente la visibilité *protected* ? 
-- Pourquoi le visibilité du getter du solde n'est pas *protected* lui aussi ? 
+- Pourquoi le visibilité du getter du solde n'est pas *protected* elle aussi ? 
 
 # Étape 2 - Création de la classe `Placement`
 1. Créez une nouvelle classe `Placement` qui hérite de la classe `Actif`.  
-2. Cette classe devrait contenir un attribut "string _institution" en visibilité *protected*
+2. Cette classe devrait contenir un attribut `string _institution` en visibilité *protected*
 3. L'attribut `_institution` doit avoir un getter *public*
 
 # Étape 3 - Création de la classe `Reer` 
@@ -36,5 +35,5 @@ Pour ce laboratoire, nous allons réutiliser la classe `CompteBanque` du laborat
 5. Ajouter l'attribut `string _institution` et son getter
 
 ## Questions: 
-- Quelle visibilité devrait avoir les nouveaux attributs de la classe `CompteBanque` et pourquoi ? 
-- Quelle visibilité devrait avoir les getters des nouveaux attributs et pourquoi ? 
+- Quelle visibilité devraient avoir les nouveaux attributs de la classe `CompteBanque` et pourquoi ? 
+- Quelle visibilité devraient avoir les getters des nouveaux attributs et pourquoi ? 
