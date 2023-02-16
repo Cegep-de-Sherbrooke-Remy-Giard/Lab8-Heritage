@@ -38,6 +38,7 @@ Nous allons modifier le `CompteBanque` pour qu'il devienne un `Actif`.
 3. Puisque la classe est maintenant un actif, elle n'a pas besoin d'avoir son propre `solde` puisque cet attribut provient maintenant de la classe `Actif`.  On peut donc supprimer l'attribut `solde` et son getter de la classe `CompteBanque`.
 4. Ajouter l'attribut `string _noCompte` et son getter
 5. Ajouter l'attribut `string _institution` et son getter
+6. Ajouter un constructeur qui reçoit en paramètre le solde, l'institution et le numéro de compte.
 
 ## Questions: 
 - Quelle visibilité devraient avoir les nouveaux attributs de la classe `CompteBanque` et pourquoi ? 
