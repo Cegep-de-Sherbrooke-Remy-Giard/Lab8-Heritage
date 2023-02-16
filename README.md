@@ -46,7 +46,7 @@ Nous allons modifier le `CompteBanque` pour qu'il devienne un `Actif`.
 - Quelle visibilité devraient avoir les getters des nouveaux attributs et pourquoi ? 
 
 # Étape 5 - Ajout des méthodes `afficherDetails()`
-On désire pouvoir afficher les détails des instances de chacune des classes de la hiérarchie `Actif`. Nous allons donc créer des méthodes `afficherDetails(ostream&flux)`.  
+On désire pouvoir afficher les détails des instances de chacune des classes de la hiérarchie `Actif`. Nous allons donc créer des méthodes `afficherDetails(ostream& flux)`.  
 1. Créez la méthode `afficherDetails(ostream& flux)` pour la classe `Actif`.  Cette méthode doit afficher par exemple: 
 ```
 Solde: 1234.00$
