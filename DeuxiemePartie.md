@@ -4,16 +4,17 @@ Dans cette deuxième partie, on vous demande de créer une classe `BilanComptabl
 
 Les attributs de cette classe:
 - string nomDuProprietaire
-- Un tableau de pointeurs d'actifs (classe `Actif`)
+- Un tableau de pointeurs d'actifs (`Actif** _actifs;`)
+- Un attribut qui indique le nombre d'actifs dans le tableau
 
 Les méthodes de cette classe:
 - Constructeur
-- Le constructeur doit initialiser des `Actif` dans le tableau d'actifs.  Par exemple: `actifs[0] = new CompteBanque(......)`.
-- Destructeur qui détruira les actifs créés
-- Une méthode `afficher()` qui affichera par exemple: 
+- Une méthode `ajouterActif(Actif* actif)` qui ajoutera un actif dans le tableau
+- Une surcharge de l'opérateur << qui affichera par exemple: 
 ```
-Bilan de Marcel Desjardins 
-==========================
+Bilan Comptable
+===============
+Client: Marcel Desjardins
 
 Actifs
 ------
@@ -24,8 +25,8 @@ REER - 8473750-12-ES1 - Desjardins                            50000.00$
                                                      Total : 69 134.00$
 ```
 
+Pour générer cette affichage, la classe `BilanComptable` demandera à un `Actif` quelle est sa description `getDescription()`.  Cette méthode doit être définie sur la classe `Actif` et doit forcer les classes enfants de dernier niveau à l'implanter.  Donc, `CompteBanque` et `Reer` devront l'implanter.  
 
-
-## Étape 2
-Maintenant, on veut pouvoir faire une copie d'un `BilanComptable`.  Puisque la classe utilise les pointeurs à l'interne comme attribut, quelles méthodes faut-il pour pouvoir bien gérer les copies ?  
-Veuillez implanter ces méthodes !
+## Questions
+- Comment peut-on forcer une méthode à être définie sur les classes enfants ?
+- Qu'est ce qu'une classe abstraite et quelle classe pourrait être considérée comme abstraite dans ce laboratoire ? 
