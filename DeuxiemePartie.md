@@ -12,17 +12,17 @@ Les méthodes de cette classe:
 - Une méthode `ajouterActif(Actif* actif)` qui ajoutera un actif dans le tableau
 - Une surcharge de l'opérateur << qui affichera par exemple: 
 ```
+                                                     
 Bilan Comptable
 ===============
-Client: Marcel Desjardins
+Propriétaire: Joseph Léveillée
 
 Actifs
 ------
-Compte de banque - 8473890-15 Desjardins                      12345.00$
-REER - 8473748-12-ES2 - Desjardins                             6789.00$
-REER - 8473750-12-ES1 - Desjardins                            50000.00$
-                                                             ----------      
-                                                     Total : 69 134.00$
+Compte de Banque - Desjardins - 852126-ES2                       1 000,25 $
+REER - Desjardins - 6745894-RR1                                 10 232,12 $
+                                                             --------------
+                                                Total:          11 232,37 $
 ```
 
 Pour générer cette affichage, la classe `BilanComptable` demandera à un `Actif` quelle est sa description `getDescription()`.  Cette méthode doit être définie sur la classe `Actif` et doit forcer les classes enfants de dernier niveau à l'implanter.  Donc, `CompteBanque` et `Reer` devront l'implanter.  
