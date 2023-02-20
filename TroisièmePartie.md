@@ -30,7 +30,6 @@ Actifs
 Compte de Banque - Desjardins - 852126-ES2                       1 000,25 $
 REER - Desjardins - 6745894-RR1                                 10 232,12 $
 Immobilier - 234 Blvd Portland, Sherbrooke                     510 000,00 $
-
                                                              --------------
                                                 Total:         521 232,37 $
 
