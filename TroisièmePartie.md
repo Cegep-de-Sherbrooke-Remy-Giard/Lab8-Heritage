@@ -17,3 +17,31 @@ Dernièrement, je vous propose de créer une hiérarchie de classe semblable au 
 - `CarteCredit` qui est aussi un `Passif` et contient les attributs `quatreDerniersCharateres`, `expiration` et `marque` (VISA, MASTERCARD', ...)
 
 Pour avoir une image complète d'un profil de bilan comptable, il faudrait ajouter un `Actif` qui représente un immeuble pour contre-balancer l'hypothèque.  Je vous propose d'ajouter la classe `Immobilier` qui est un `Actif` et contient une adresse comme attribut.
+
+
+# Étape 3 - Affichage du bilan complet
+```
+Bilan Comptable
+===============
+Propriétaire: Joseph Léveillée
+
+Actifs
+------
+Compte de Banque - Desjardins - 852126-ES2                       1 000,25 $
+REER - Desjardins - 6745894-RR1                                 10 232,12 $
+Immobilier - 234 Blvd Portland, Sherbrooke                     510 000,00 $
+
+                                                             --------------
+                                                Total:         521 232,37 $
+
+Passifs
+-------
+Hypohèque - Desjardins - 852126-HP2                            225 000,25 $
+Carte de crédit - Fini avec 4453 - 02/24 - VISA                    232,56 $
+                                                             --------------
+                                                Total:         252 232,81 $
+
+
+                                                            ===============
+                                          GRAND TOTAL:         268 999,56 $
+```
